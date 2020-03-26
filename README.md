@@ -1,3 +1,19 @@
-# Line Numbers by Google Docs
+## Line Numbers for Google Docs
 
-> An awesome project.
+> A seamless way line numbers to your Google Documents!
+
+## What is it
+
+Line Numbers for Google Docs is a chrome extension that lets you number your Google Documents.
+
+## Features
+
+- TODO
+- List
+- Some
+- Cool
+- Features
+
+## Examples
+
+This is what it looks like.

@@ -15,14 +15,10 @@
       name: 'Line Numbers for GDocs',
       repo: 'https://github.com/Line-Numbers-for-Google-Docs',
       coverpage: true,
-      plugins: [
-        EditOnGithubPlugin.create(
-          "https://github.com/Line-Numbers-for-Google-Docs/website", null, 
-          'Edit on GitHub')
-      ],
+      loadSidebar: true,
     }
   </script>
-  <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
-  <script src="//unpkg.com/docsify-edit-on-github/index.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
 </body>
 </html>

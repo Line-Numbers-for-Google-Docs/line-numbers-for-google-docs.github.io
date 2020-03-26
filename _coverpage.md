@@ -9,7 +9,7 @@
 - Synchronized across Devices
 
 <!-- [GitHub](https://github.com/docsifyjs/docsify/) -->
-[Get Started](#docsify)
+[Get Started](#line-numbers-for-google-docs)
 
 <!-- background color -->
 ![color](#f0f0f0)
