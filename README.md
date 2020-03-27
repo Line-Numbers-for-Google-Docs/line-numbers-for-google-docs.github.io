@@ -1,6 +1,6 @@
 ## Line Numbers for Google Docs
 
-> A seamless way line numbers to your Google Documents!
+> A seamless way to numbers the lines of your Google Documents!
 
 ## What is it
 
@@ -17,3 +17,7 @@ Line Numbers for Google Docs is a chrome extension that lets you number your Goo
 ## Examples
 
 This is what it looks like.
+
+## Looking to get started
+
+Head over to the [quick start](quickstart.md) section for a quick guide on how to start using the extension.

@@ -1,10 +1,13 @@
 * Getting started :rocket:
 
   * [Quick start](quickstart.md)
-  * [Download with numbers]()
+  * [Export line numbers](export.md)
 
-* Customization :lock:
+* Customization :wrench:
 
   * [Configuration](configuration.md)
 
 * Help :question:
+
+  * [FAQ](faq.md)
+  * [Contact me](contact.md)

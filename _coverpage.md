@@ -2,14 +2,14 @@
 
 # Line Numbers for Google Docs
 
-> A seamless way line numbers to your Google Documents!
+> A seamless way to numbers the lines of your Google Docs!
 
 - Simple and Lightweight
 - Extensively Customizable
 - Synchronized across Devices
 
 <!-- [GitHub](https://github.com/docsifyjs/docsify/) -->
-[Get Started](#line-numbers-for-google-docs)
+[Learn More](#line-numbers-for-google-docs)
 
 <!-- background color -->
 ![color](#f0f0f0)
