@@ -12,6 +12,8 @@
     </div>
 </form>
 
+You can also reach out using the **Support** tab on the extensions **[Chrome web store page](https://chrome.google.com/webstore/detail/line-numbers-for-google-d/mblodabbcapnkgcfnddfpfaamjckjlik)**.
+
 <style>
 @import url(https://fonts.googleapis.com/css?family=Lato:100, 300, 400);
 
