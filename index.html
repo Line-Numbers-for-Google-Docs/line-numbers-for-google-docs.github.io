@@ -17,10 +17,75 @@
       coverpage: true,
       loadSidebar: true,
       ga: 'UA-44179721-6',
+
+      plugins: [
+        function(hook, vm) {
+          hook.ready(function() {
+            var contactFrom = document.getElementById('contact-form');
+
+            if (contactFrom) {
+              (function(){
+                emailjs.init("user_g6PgKKJeCX4NYOf5SxZgg");
+              })();
+
+              var service_id = "default_service";
+              var template_id = "line_numbers_for_google_docs_support";
+
+              contactFrom.addEventListener('submit', function(event) {
+                event.preventDefault();
+
+                // Show captcha
+                // document.getElementById('contact-form-captcha').style.display = 'block';
+
+                // generate the contact number value
+                this.contact_number.value = Math.random() * 100000 | 0;
+
+                var submitButton = document.getElementById('submit');
+                submitButton.disabled = true;
+                submitButton.value = "SENDING...";
+
+                var inputs = contactFrom.querySelectorAll('input');
+                for (let i = 0; i < inputs.length; i++) {
+                  const input = inputs[i];
+                  input.disabled = true;
+                }
+                var textAreas = contactFrom.querySelectorAll('textarea');
+                for (let i = 0; i < textAreas.length; i++) {
+                  const textArea = textAreas[i];
+                  textArea.disabled = true;
+                }
+
+                emailjs.sendForm(service_id, template_id, this).then(function() {
+                  // Successfully Sent
+                  submitButton.value = "SENT";
+                  submitButton.style.background = "#BFE3B4";
+                }, function(err) {
+                  // Failed to send...
+                  submitButton.value = "FAILED TO SEND..."
+                  submitButton.style.background = "#ED4337";
+                  submitButton.style.color = "white";
+                });
+              });
+            }
+          });
+        }
+      ]
     }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js" data-ga="UA-44179721-6"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/ga.min.js"></script>
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
+  <!-- <script src="https://www.google.com/recaptcha/api.js"async defer></script>
+  <script>
+    function captchaSuccess() {
+      document.getElementById('contact-form-captcha').style.display = 'none';
+    }
+
+    function captchaExpired() {
+      document.getElementById('contact-form-captcha').style.display = 'block';
+    }
+  </script> -->
 </body>
 </html>
