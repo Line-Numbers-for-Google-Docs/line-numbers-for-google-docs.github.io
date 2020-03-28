@@ -1,6 +1,6 @@
-# Line Numbers for Google Docs <small>2.0</small>
+# Line Numbers for Google Docs <small>2.0.0</small>
 
-### Thank you for downloading or updating to version 2.0 of the extension!
+### Thank you for updating to version 2.0.0 of the extension!
 
 This is a major update to the extension. The extension has been completely redesigned with ease of use and performance in mind.
 
