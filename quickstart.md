@@ -1,6 +1,6 @@
 # Quick start
 
-#### 1. Add the extension to Google Chrome
+#### 1. Add the extension to Google Chrome (skip if already installed)
 
 Head over to the **[chrome web store page](https://chrome.google.com/webstore/detail/line-numbers-for-google-d/mblodabbcapnkgcfnddfpfaamjckjlik)** of the extension and click on the **Add to Chrome** button.
 

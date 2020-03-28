@@ -21,6 +21,16 @@
       plugins: [
         function(hook, vm) {
           hook.ready(function() {
+            // Remove underline for anchors
+            var anchors = document.getElementsByClassName('anchor');
+            for (let i = 0; i < anchors.length; i++) {
+              const anchor = anchors[i];
+              anchor.style['text-decoration'] = 'none';
+            }
+          });
+        },
+        function(hook, vm) {
+          hook.ready(function() {
             var contactFrom = document.getElementById('contact-form');
 
             if (contactFrom) {
