@@ -5,7 +5,7 @@
 
 * Customization :wrench:
 
-  * [Configuration](configuration.md)
+  * [Settings](settings.md)
 
 * Help :question:
 

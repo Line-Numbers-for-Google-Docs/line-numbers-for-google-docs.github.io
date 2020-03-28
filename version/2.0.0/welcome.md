@@ -1,8 +1,8 @@
 # Line Numbers for Google Docs <small>2.0.0</small>
 
-### Thank you for updating to version 2.0.0 of the extension!
+### You have updated to version 2.0.0 of the extension!
 
-This is a major update to the extension. The extension has been completely redesigned with ease of use and performance in mind.
+This is a **major update** to the extension. The extension has been completely redesigned with ease of use and performance in mind.
 
 #### How to get started?
 
