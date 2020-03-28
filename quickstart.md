@@ -8,9 +8,9 @@ Head over to the **[chrome web store page](https://chrome.google.com/webstore/de
 
 Wait for the extension to finish installing before proceeding.
 
-#### 2. Open your favorite Google Docs file
+#### 2. Open your favorite or refresh Google Docs file
 
-Head over to **[Google Docs](https://docs.google.com/)** and open any of your documents or create a new document.
+Head over to **[Google Docs](https://docs.google.com/)** and open any of your documents or create a new document. If you already have a document open make sure to refresh it for the extension to take effect.
 
 #### 3. Open the line numbering settings
 

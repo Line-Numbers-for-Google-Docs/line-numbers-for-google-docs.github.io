@@ -13,6 +13,7 @@ Follow the instruction of the **[quick start guide](http://localhost:3000/#/quic
 - Per document line numbering settings.
 - Enhanced performance rendering of the line numbers.
 - The settings are now directly accessible within the document.
+- Better number alignment to the line's text content.
 - Automatic detection of the paragraph direction to automatically number lines on the correct side of the page.
 
 #### Have Questions?
