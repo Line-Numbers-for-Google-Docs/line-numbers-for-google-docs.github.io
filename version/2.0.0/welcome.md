@@ -6,7 +6,7 @@ This is a **major update** to the extension. The extension has been completely r
 
 #### How to get started?
 
-Follow the instruction of the **[quick start guide](http://localhost:3000/#/quickstart?id=_2-open-your-favorite-google-docs-file)** — start at step 2.
+Follow the instruction of the **[welcome guide](welcome.md)**.
 
 #### What are the major changes?
 
