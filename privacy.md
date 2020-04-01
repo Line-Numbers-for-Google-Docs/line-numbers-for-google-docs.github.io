@@ -16,7 +16,7 @@ When you sign up for or use our Services, you voluntarily provide us with certai
 
 - **Your email address and name**. To log into our Services, we ask permission to access basic information from your Google account, which includes your name and email address. You can stop sharing that information with us at any time by removing Line Numbers for GDocs' access to that account.
 
-- **Your payment information**, if you are a paying customer. We use this information to enable and fulfill your commercial transaction with us. This information is securely stored and processed by Stripe. Stripe's privacy policy will apply to the information you provide on Stripe's website.
+- **Your payment information**, if you are a paying customer. We use this information to enable and fulfill your commercial transaction with us. This information is securely stored and processed by Stripe. We do not store any payment information. Stripe's privacy policy will apply to the information you provide on Stripe's website.
 
 ##### Automatically collected information
 
