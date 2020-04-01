@@ -11,3 +11,5 @@
 
   * [FAQ](faq.md)
   * [Contact me](contact.md)
+
+* [Privacy Policy](privacy.md)
