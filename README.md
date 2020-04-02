@@ -13,7 +13,7 @@ Line Numbers for Google Docs is a chrome extension that lets you number your Goo
 - Export your document with line numbers to a PDF or Word document.
 - Support for multi-column line numbering.
 - Restart numbering on every new page.
-- Automatically adapts the numbering position based on writing direction.
+- Automatically adapts the numbering position based on the writing direction.
 - Format line numbers by changing their size, font, and color.
 - Add custom dividers between the line numbers and text.
 

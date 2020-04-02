@@ -2,7 +2,7 @@
 
 ### Thank you for downloading the extension!
 
-To get started follow the 3 step below.
+To get started follow the 3 steps below.
 
 Getting started is as easy as 1, 2, 3! :smile:
 
@@ -18,7 +18,7 @@ In the **top right** corner of your document you should see a **new icon** injec
 
 If you do not see this icon, please try restarting Chrome and reloading the Google Docs page.
 
-If your are still experiencing problems with this, please **[contact me ](contact.md)** so that I can fix this problem for you.
+If you are still experiencing problems with this, please **[contact me ](contact.md)** so that I can fix this problem for you.
 
 #### 3. Enable & apply line numbering
 

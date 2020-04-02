@@ -14,7 +14,7 @@ We only retain collected information for as long as necessary to provide you wit
 
 When you sign up for or use our Services, you voluntarily provide us with certain Personal Data, including:
 
-- **Your email address and name**. To log into our Services, we ask permission to access basic information from your Google account, which includes your name and email address. You can stop sharing that information with us at any time by removing Line Numbers for GDocs' access to that account.
+- **Your email address and name**. To log in to our Services, we ask permission to access basic information from your Google account, which includes your name and email address. You can stop sharing that information with us at any time by removing Line Numbers for GDocs' access to that account.
 
 - **Your payment information**, if you are a paying customer. We use this information to enable and fulfill your commercial transaction with us. This information is securely stored and processed by Stripe. We do not store any payment information. Stripe's privacy policy will apply to the information you provide on Stripe's website.
 
@@ -24,7 +24,7 @@ Certain data about your use of our Site, Software, and/or Services are automatic
 
 - **Location information**. This is the geographic area where you use your computer and mobile devices (as indicated by an Internet Protocol (IP) address or similar identifier) when interacting with our Site, Software, and/or Services.
 
-- **Log data**. As with most websites and technology services delivered over the internet, our servers automatically collect data when you access or use our Site, Software, and/or Services and record it in log files. This log data may include IP address, browser type and settings, date and time of use, information about browser configuration, language preferences, and cookie data.
+- **Log data**. As with most websites and technology services delivered over the internet, our servers automatically collect data when you access or use our Site, Software, and/or Services and record it in log files. This log data may include IP address, browser type, and settings, date and time of use, information about browser configuration, language preferences, and cookie data.
 
 - **Usage information**. This is information about how you use our Site, Software, and/or Services. We may also obtain data from our third-party partners and service providers to analyze how users use our Site, Software, and/or Services. For example, we will know how many users access a specific page on the Site and which links they clicked on. We use this aggregated information to better understand and optimize our Software.
 

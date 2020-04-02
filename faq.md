@@ -1,8 +1,8 @@
 # FAQ
 
-### Why are the line number are not showing?
+### Why are the line number not showing?
 
-If you have properly followed the [quick start guide](quickstart.md) and double checked that the *Show line numbering* checkbox is checked in your document. Then try to reload the Google Docs documents, restart your browser and check that the extension is enabled by going to *chrome://extensions/* in the url bar. 
+If you have properly followed the [quick start guide](quickstart.md) and double-checked that the *Show line numbering* checkbox is checked in your document. Then try to reload the Google Docs documents, restart your browser and check that the extension is enabled by going to *chrome://extensions/* in the URL bar. 
 
 If you still can't see the line numbers on your document please [reach out](contact.md) for help.
 
@@ -16,8 +16,8 @@ If you are working in academia as a teacher or professor, or are a student then 
 
 ### Why is it slow?
 
-If you document is very big then Google Docs starts slowing down substantially — this is a know problem to Google. So the performance problems you are experiencing may have nothing to do with the extension itself.
+If your document is very big then Google Docs starts slowing down substantially — this is a known problem to Google. So the performance problems you are experiencing may have nothing to do with the extension itself.
 
-You should try disabling the extension by going to *chrome://extensions/* in the url bar. 
+You should try disabling the extension by going to *chrome://extensions/* in the URL bar. 
 Then reload your document and check if the performance problems are still apparent.
 If you notice an increase in performance please [contact me](contact.md) so that I can look into it.

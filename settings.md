@@ -12,7 +12,7 @@ A quick description of all the settings available in the extension.
 
 #### Show line numbering
 
-This is a checkbox that allows you toggle the visibility of the line numbers.
+This is a checkbox that allows you to toggle the visibility of the line numbers.
 
 #### Numbering Type
 
@@ -23,7 +23,7 @@ Changing the numbering type changes the way lines are numbered.
 
 #### Start at
 
-This value defines the number to start counting from on each count reset. For example, if this is set to 5, the the first 
+This value defines the number to start counting from on each count reset. For example, if this is set to 5, the first 
 line will be numbered as 5. If at any point line numbering is reset, then line counting will also start from 5.
 
 #### Count by

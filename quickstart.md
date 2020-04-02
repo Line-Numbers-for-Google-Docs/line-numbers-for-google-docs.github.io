@@ -1,4 +1,4 @@
-# Quick start
+# Quickstart
 
 #### 1. Add the extension to Google Chrome (skip if already installed)
 
@@ -20,7 +20,7 @@ In the **top right** corner of your document you should see a **new icon** injec
 
 If you do not see this icon, please try restarting Chrome and reloading the Google Docs page.
 
-If your are still experiencing problems with this, please **[contact me ](contact.md)** so that I can fix this problem for you.
+If you are still experiencing problems with this, please **[contact me ](contact.md)** so that I can fix this problem for you.
 
 #### 4. Enable line numbering
 
