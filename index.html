@@ -32,22 +32,22 @@
         },
         function(hook, vm) {
           hook.ready(function() {
-            var contactFrom = document.getElementById('contact-form');
+            const contactForm = document.getElementById('contact-form');
 
-            if (contactFrom) {
-              contactFrom.addEventListener('submit', function(event) {
+            if (contactForm) {
+              contactForm.addEventListener('submit', function(event) {
                 event.preventDefault();
 
-                var submitButton = document.getElementById('submit');
+                const submitButton = document.getElementById('submit');
                 submitButton.disabled = true;
                 submitButton.value = "SENDING...";
 
-                var inputs = contactFrom.querySelectorAll('input');
+                const inputs = contactForm.querySelectorAll('input');
                 for (let i = 0; i < inputs.length; i++) {
                   const input = inputs[i];
                   input.disabled = true;
                 }
-                var textAreas = contactFrom.querySelectorAll('textarea');
+                const textAreas = contactForm.querySelectorAll('textarea');
                 for (let i = 0; i < textAreas.length; i++) {
                   const textArea = textAreas[i];
                   textArea.disabled = true;
@@ -60,11 +60,12 @@
                   submitButton.style.color = "white";
                 }
 
-                const url = "https://linenumbers.app/api/v1/sendMail";
+                const name = document.getElementById('name').value
+                const email = document.getElementById('email').value
+                const message = document.getElementById('message').value
+                const url = `https://linenumbers.app/api/v1/sendMail?name=${name}&email=${email}&message=${message}`;
                 fetch(url, {
                     method : "POST",
-                    body: new URLSearchParams(new FormData(contactFrom)),
-                    headers: {"Content-Type": "application/x-www-form-urlencoded"}
                 }).then((response) => {
                   console.log("Response", response);
                   if (response.status == 200) {
