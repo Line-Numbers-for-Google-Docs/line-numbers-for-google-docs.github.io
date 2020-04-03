@@ -6,10 +6,6 @@
     <input id="email" type="text" placeholder="E-MAIL" name="email">
     <textarea id="message" type="text" placeholder="MESSAGE" name="message"></textarea>
     <input id="submit" type="submit" value="SEND">
-    <div id="contact-form-captcha" class="text-center">
-        <div class="g-recaptcha" data-sitekey="6LfDkeQUAAAAAI-6F_dy38crjclN7q0PB-J7vDlM" 
-            data-callback="captchaSuccess" data-expired-callback="captchaExpired"></div>
-    </div>
 </form>
 
 You can also reach out using the **Support** tab on the extensions **[Chrome web store page](https://chrome.google.com/webstore/detail/line-numbers-for-google-d/mblodabbcapnkgcfnddfpfaamjckjlik)**.

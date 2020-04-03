@@ -2,6 +2,7 @@
 
   * [Quick start](quickstart.md)
   * [Export line numbers](export.md)
+  * [Pleading Documents](pleading.md)
 
 * Customization :wrench:
 
