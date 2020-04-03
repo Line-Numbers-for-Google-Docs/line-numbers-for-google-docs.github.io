@@ -38,9 +38,6 @@
               contactFrom.addEventListener('submit', function(event) {
                 event.preventDefault();
 
-                // generate the contact number value
-                this.contact_number.value = Math.random() * 100000 | 0;
-
                 var submitButton = document.getElementById('submit');
                 submitButton.disabled = true;
                 submitButton.value = "SENDING...";
