@@ -1,7 +1,6 @@
 # Contact Developer
 
 <form id="contact-form" class="topBefore">
-    <input type="hidden" name="contact_number">
     <input id="name" type="text" placeholder="NAME"  name="name">
     <input id="email" type="text" placeholder="E-MAIL" name="email">
     <textarea id="message" type="text" placeholder="MESSAGE" name="message"></textarea>

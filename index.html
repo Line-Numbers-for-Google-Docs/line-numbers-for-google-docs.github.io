@@ -56,21 +56,30 @@
                   textArea.disabled = true;
                 }
 
-                const url = "https://linenumbers.app/api/v1/sendMail";
-                fetch(url, {
-                    method : "POST",
-                    body: new FormData(contactFrom),
-                }).then((response) => {
-                    console.log("Response", response);
-                    // Successfully Sent
-                    submitButton.value = "SENT";
-                    submitButton.style.background = "#BFE3B4";
-                }).catch((err) => {
-                  console.log("Error", err);
+                function failedToSend() {
                   // Failed to send...
                   submitButton.value = "FAILED TO SEND..."
                   submitButton.style.background = "#ED4337";
                   submitButton.style.color = "white";
+                }
+
+                const url = "https://linenumbers.app/api/v1/sendMail";
+                fetch(url, {
+                    method : "POST",
+                    body: new FormData(contactFrom),
+                    headers: {'Content-Type': 'application/json'}
+                }).then((response) => {
+                  console.log("Response", response);
+                  if (response.status == 200) {
+                    // Successfully Sent
+                    submitButton.value = "SENT";
+                    submitButton.style.background = "#BFE3B4";
+                  } else {
+                    failedToSend();
+                  }
+                }).catch((err) => {
+                  console.log("Error", err);
+                  failedToSend();
                 });
               });
             }
