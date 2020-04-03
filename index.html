@@ -63,8 +63,8 @@
                 const url = "https://linenumbers.app/api/v1/sendMail";
                 fetch(url, {
                     method : "POST",
-                    body: new FormData(contactFrom),
-                    headers: {'Content-Type': 'application/json'}
+                    body: new URLSearchParams(new FormData(contactFrom)),
+                    headers: {"Content-Type": "application/x-www-form-urlencoded"}
                 }).then((response) => {
                   console.log("Response", response);
                   if (response.status == 200) {
