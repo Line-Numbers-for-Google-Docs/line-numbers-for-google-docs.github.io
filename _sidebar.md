@@ -7,6 +7,7 @@
 * Customization :wrench:
 
   * [Settings](settings.md)
+  * [Premium](premium.md)
 
 * Help :question:
 

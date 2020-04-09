@@ -18,6 +18,14 @@ When you sign up for or use our Services, you voluntarily provide us with certai
 
 - **Your payment information**, if you are a paying customer. We use this information to enable and fulfill your commercial transaction with us. This information is securely stored and processed by Stripe. We do not store any payment information. Stripe's privacy policy will apply to the information you provide on Stripe's website.
 
+##### Line Numbering and Document information
+
+When you use our extension you will have access to custom settings to allow you to format line numbering to your liking. To make sure this information is backed up and accessibly to anyone the document is shared with, we store an collect this information. This includes:
+
+- **The Google Docs document ID** of any document in which line numbering has been enabled by you or by someone with write access to the document. If neither you or anyone who has write access to your document has ever enabled line numbering on a document, then this information will not be collected. To enable line numbering means explicitly going in the line numbering settings and changing any of the available configurations from their default value.
+
+- **The line numbering settings**. These include the values of any option in the line numbering settings menu.
+
 ##### Automatically collected information
 
 Certain data about your use of our Site, Software, and/or Services are automatically logged in our systems, including:
