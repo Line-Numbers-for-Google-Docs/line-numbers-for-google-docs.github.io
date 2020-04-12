@@ -9,6 +9,56 @@
 
 You can also reach out using the **Support** tab on the extensions **[Chrome web store page](https://chrome.google.com/webstore/detail/line-numbers-for-google-d/mblodabbcapnkgcfnddfpfaamjckjlik)**.
 
+<script>
+  const contactForm = document.getElementById('contact-form');
+
+  contactForm.addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    const submitButton = document.getElementById('submit');
+    submitButton.disabled = true;
+    submitButton.value = "SENDING...";
+
+    const inputs = contactForm.querySelectorAll('input');
+    for (let i = 0; i < inputs.length; i++) {
+      const input = inputs[i];
+      input.disabled = true;
+    }
+    const textAreas = contactForm.querySelectorAll('textarea');
+    for (let i = 0; i < textAreas.length; i++) {
+      const textArea = textAreas[i];
+      textArea.disabled = true;
+    }
+
+    const name = document.getElementById('name').value
+    const email = document.getElementById('email').value
+    const message = document.getElementById('message').value
+    const url = `https://linenumbers.app/api/v1/sendMail?name=${name}&email=${email}&message=${message}`;
+
+    fetch(url, {
+        method : "POST",
+    }).then((response) => {
+      console.log("Response", response);
+      if (response.status == 200) {
+        // Successfully Sent
+        submitButton.value = "SENT";
+        submitButton.style.background = "#BFE3B4";
+      } else {
+        // Failed to send...
+        submitButton.value = "FAILED TO SEND..."
+        submitButton.style.background = "#ED4337";
+        submitButton.style.color = "white";
+      }
+    }).catch((err) => {
+      console.log("Error", err);
+      // Failed to send...
+      submitButton.value = "FAILED TO SEND..."
+      submitButton.style.background = "#ED4337";
+      submitButton.style.color = "white";
+    });
+  });
+</script>
+
 <style>
 @import url(https://fonts.googleapis.com/css?family=Lato:100, 300, 400);
 
