@@ -8,6 +8,8 @@
 
 Note that if line numbers don't appear on all pages, you may need to scroll through the document to have them render.
 
+Alternatively, if that doesn't work, in step 2, try selecting *Save to Google Drive* instead.
+
 #### Export to a Word Document
 
 This is still a work in progress. Say tuned for updates.

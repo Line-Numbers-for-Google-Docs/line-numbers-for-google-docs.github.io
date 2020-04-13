@@ -10,6 +10,8 @@ If you still can't see the line numbers on your document please [reach out](cont
 
 This issue may arise when to entire document was not properly loaded. Try scrolling through the entire document before printing or exporting the document to a PDF.
 
+Make sure you follow the instruction found in the [Exporting Line Numbers](export.md) section.
+
 ### Can students and academics get a premium subscription for free?
 
 If you are working in academia as a teacher or professor, or are a student then you can [contact me](contact.md) using your academic email address to request a free subscription.
