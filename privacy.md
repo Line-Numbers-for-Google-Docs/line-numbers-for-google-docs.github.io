@@ -26,6 +26,14 @@ When you use our extension you will have access to custom settings to allow you 
 
 - **The line numbering settings**. These include the values of any option in the line numbering settings menu.
 
+If you have logged in with Google and consented for Line Numbers for Google Docs to access view and manage your Google Docs documents, and see and download all your Google Drive files. We use these permissions, exclusively, to collect the following:
+
+- **Access permissions to a document**. This information specifies what level of access (eg: read or write) you have to a specific Google Docs document. This is used to figure out if you have access to read and/or modify the line numbers settings of a particular document.
+
+- **Named ranges**. These are stored within the Google Docs document structure and reference a range by a given name. This is used to keep track of ranges or text that should or shouldn't be numbered. Named ranges are created and stored within the Google Docs document when a section of the document is explicitly marked as 'do not number selection' or as 'number selection'.
+
+We do not uses the Google API permissions in any other way than the ones mentioned above.
+
 ##### Automatically collected information
 
 Certain data about your use of our Site, Software, and/or Services are automatically logged in our systems, including:
