@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Line Numbers for Google Docs</title>
   <link rel="icon" href="_media/favicon.ico">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="description" content="Description">
-  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+  <meta name="description" content="A Chrome Extension to add line numbers to any Google Docs document!">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="./css/lib/docsify-themes-vue.css">
 </head>
+
 <body>
   <div id="app"></div>
   <script>
@@ -22,8 +25,8 @@
       ga: 'UA-44179721-6',
 
       plugins: [
-        function(hook, vm) {
-          hook.doneEach(function() {
+        function (hook, vm) {
+          hook.doneEach(function () {
             // Remove underline for anchors
             const anchors = document.getElementsByClassName('anchor');
             for (let i = 0; i < anchors.length; i++) {
@@ -35,8 +38,9 @@
       ]
     }
   </script>
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js" data-ga="UA-44179721-6"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/ga.min.js"></script>
+  <script src="./js/lib/docsify.min.js" data-ga="UA-44179721-6"></script>
+  <script src="./js/lib/docsify-emoji.min.js"></script>
+  <script src="./js/lib/docsify-ga.min.js"></script>
 </body>
+
 </html>
