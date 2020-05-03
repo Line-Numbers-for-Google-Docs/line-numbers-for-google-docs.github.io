@@ -1,6 +1,6 @@
 ## Line Numbers for Google Docs
 
-> A seamless way to numbers the lines of your Google Documents!
+> A seamless way to number the lines of your Google Documents!
 
 ## What is it
 
